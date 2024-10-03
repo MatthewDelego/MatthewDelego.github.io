@@ -1,6 +1,6 @@
 //
 // Colors
-// 
+//
 
 // Color system
 
@@ -40,19 +40,22 @@ $dark: $gray-900;
 
 // Bootstrap color map
 
-$theme-colors: ("primary": $primary,
-    "secondary": $secondary,
-    "success": $success,
-    "info": $info,
-    "warning": $warning,
-    "danger": $danger,
-    "light": $light,
-    "dark": $dark);
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
 
 // Expanded color map
 
-$expanded-colors: ('black': $black,
-    'white': $white,
+$expanded-colors: (
+  'black': $black,
+  'white': $white,
 );
 
 // Merge the maps
